@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-color: #aff7d2;
+    padding-top: 2rem ;
+}
+body {
+    min-height: 200px;
+}
+
+#education {
+    background-color: #aff7d2;
+}
+.skill-card {
+    border: none;
+    transition: 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+#project{
+    background-color: #aff7d2;
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1 {
+    font-size: 20px;
+  }
+
+  .jumbotron p {
+    font-size: 14px;
+  }
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 6px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+
+
