@@ -51,4 +51,13 @@ body {
 }
 
 
+.footer-custom {
+  background-color: #1f7a4d;
+  color: white;
+  padding: 12px 0;   /* lebih kecil */
+}
 
+.footer-custom small {
+  font-size: 13px;
+  opacity: 0.8;
+}

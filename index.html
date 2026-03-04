@@ -69,10 +69,10 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-4 ">
+                <div class="col-md-4 col-12">
                     <p>I am a Computer Science student with an interest in website development. I enjoy building responsive and user-friendly websites using modern technologies.</p>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-12">
                     <p>I develop my skills in HTML, CSS, Bootstrap,Laravel and MYSQL. I continuously improve my abilities through academic projects and independent learning.</p>
                 </div>
             </div>
@@ -245,38 +245,47 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L21.8,64C43.6,96,87,160,131,208C174.5,256,218,288,262,256C305.5,224,349,128,393,90.7C436.4,53,480,75,524,101.3C567.3,128,611,160,655,181.3C698.2,203,742,213,785,202.7C829.1,192,873,160,916,133.3C960,107,1004,85,1047,85.3C1090.9,85,1135,107,1178,96C1221.8,85,1265,43,1309,48C1352.7,53,1396,107,1418,133.3L1440,160L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
 </section>
 <!-- Contact -->
-<section id="contact"  class="py-5">
+<section id="contact" class="py-5 bg-light">
   <div class="container">
 
     <div class="row text-center mb-4">
       <div class="col">
-        <h2><i class="bi bi-envelope-fill text-success"></i> Contact</h2>
+        <h2 class="fw-bold">
+          <i class="bi bi-envelope-fill text-success"></i> Contact
+        </h2>
+        <p class="text-muted">Please send a message via the following form.</p>
       </div>
     </div>
 
-    <div class="row justify-content-center text-center">
-      <div class="col-md-6">
+    <div class="row justify-content-center">
+      <div class="col-md-7">
 
-        <p>
-          <i class="bi bi-envelope"></i> 
-          <a href="mailto:wdartikasapta@email.com" class="text-decoration-none text-dark">
-            wdartikasapta@email.com
-          </a>
-        </p>
+        <div class="card shadow border-0 p-4 rounded-4">
 
-        <p>
-          <i class="bi bi-github"></i> 
-          <a href="https://github.com/wdartikasapta-byte" target="_blank" class="text-decoration-none text-dark">
-             github.com/wdartikasapta-byte
-          </a>
-        </p>
+          <form action="https://formsubmit.co/wdartikasapta@gmail.com" method="POST">
 
-        <p>
-          <i class="bi bi-instagram"></i> 
-          <a href="https://instagram.com/dreamy_rdr" target="_blank" class="text-decoration-none text-dark">
-            @dreamy_rdr
-          </a>
-        </p>
+            <!-- Anti spam -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="mb-3">
+              <input type="text" name="nama" class="form-control" placeholder="Full Name" required>
+            </div>
+
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+
+            <div class="mb-3">
+              <textarea name="pesan" class="form-control" rows="4" placeholder="Your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">
+              Send Message
+            </button>
+
+          </form>
+
+        </div>
 
       </div>
     </div>
@@ -284,34 +293,9 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="bg-success text-white text-center pt-4 pb-3">
-  <div class="container">
-    
-    <h5 class="mb-3">Waode Artika Sapta Pertiwi</h5>
-    
-    <div class="mb-3">
-      <a href="https://github.com/wdartikasapta-byte" 
-         target="_blank" 
-         class="text-white me-3">
-        <i class="bi bi-github fs-5"></i>
-      </a>
-
-      <a href="https://instagram.com/dreamy_rdr" 
-         target="_blank" 
-         class="text-white me-3">
-        <i class="bi bi-instagram fs-5"></i>
-      </a>
-
-      <a href="mailto:waodeartikasapta@email.com" 
-         class="text-white">
-        <i class="bi bi-envelope fs-5"></i>
-      </a>
-    </div>
-
-    <p class="mb-0 small">
-      © 2026 | Computer Science Student
-    </p>
-
+<footer class="footer-custom">
+  <div class="container text-center">
+    <small>© 2026 | Computer Science Student</small>
   </div>
 </footer>
 
